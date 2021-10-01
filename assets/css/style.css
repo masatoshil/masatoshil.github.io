@@ -1,0 +1,45 @@
+:root {
+  --theme-color-base: #fff;
+  --theme-color-text: #000;
+  --mq-size-sm: 576px;
+  --mq-size-md: 768px;
+  --mq-size-lg: 992px;
+  --mq-size-xl: 1200px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fcfcfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  --container-width: 100%;
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    --container-width: var(--mq-size-sm);
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    --container-width: var(--mq-size-md);
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    --container-width: var(--mq-size-lg);
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    --container-width: var(--mq-size-xl);
+  }
+}
