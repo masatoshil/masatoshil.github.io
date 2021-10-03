@@ -23,6 +23,20 @@ body {
   padding: 0 15px;
 }
 
+.header {
+  display: flex;
+  height: 48px;
+  align-items: center;
+}
+.navigation__list {
+  display: flex;
+  justify-content: end;
+}
+
+.navigation__item {
+  margin: 0 10px;
+}
+
 @media (min-width: 576px) {
   .container {
     --container-width: var(--mq-size-sm);

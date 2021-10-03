@@ -18,10 +18,33 @@
     <title>google search</title>
   </head>
   <body>
-      <header class="header">
-          <div class="container">
-              
-          </div>
-      </header>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="">google images</a>
+            </li>
+            <li class="navigation__item">
+              <a href="">extended search</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <img
+          src="./assets/img/googlelogo_color_272x92dp.png"
+          alt=""
+          class="main__image"
+        />
+        <form action="https://google.com/search">
+          <input type="text" name="q" />
+          <input type="submit" value="Google Search" />
+          <input type="submit" value="Мне повезет" />
+        </form>
+      </div>
+    </main>
   </body>
 </html>
