@@ -23,10 +23,10 @@
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="./g_images.html">google images</a>
+              <a href="./index.html">google search</a>
             </li>
             <li class="navigation__item">
-              <a href="./g_ext-search.html">extended search</a>
+              <a href="./g_images.html">google images</a>
             </li>
           </ul>
         </nav>
@@ -34,15 +34,19 @@
     </header>
     <main class="main">
       <div class="container">
-        <img
-          src="./assets/img/googlelogo_color_272x92dp.png"
-          alt=""
-          class="main__image"
-        />
-        <form action="https://google.com/search">
-          <input type="text" name="q" />
-          <input type="submit" value="Google Search" />
-          <input type="submit" value="Мне повезет" />
+        <div class="image-wrapper">
+          <img
+            src="./assets/img/googlelogo_color_272x92dp.png"
+            alt=""
+            class="extend__image"
+          />
+        </div>
+        <form class="extend__form" action="https://google.com/search">
+          <input class="extend__input" type="text" name="q" placeholder="Enter the query"/>
+          <input class="extend__input" type="text" name="q" placeholder="Advanced query"/>
+          <input class="extend__input" type="text" name="q" placeholder="Advanced query"/>
+          <input class="form-button" type="submit" value="Extended Search" />
+          <!-- <input type="submit" value="Мне повезет" /> -->
         </form>
       </div>
     </main>

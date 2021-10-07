@@ -53,6 +53,13 @@ body {
   margin: 20px;
 }
 
+.extend__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
 .main__input {
   padding: 0 16px;
   background: #fff;
@@ -63,6 +70,19 @@ body {
   height: 44px;
   margin: 0 auto;
   width: 500px;
+}
+
+.extend__input {
+  padding: 0 16px;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 14px;
+  height: 44px;
+  margin: 0 auto;
+  width: auto;
+  margin-bottom: 10px;
 }
 
 .form-buttons__wrapper {
